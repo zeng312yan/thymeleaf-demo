@@ -14,6 +14,7 @@ public class MyTest extends Application {
 
         System.out.println("aaaaaa");
         System.out.println("djsfdjsd");
+        System.out.println("1");
 
 
 
