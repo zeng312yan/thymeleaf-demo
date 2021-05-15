@@ -12,9 +12,13 @@ public class MyTest extends Application {
     @Override
     public void start(Stage primaryStage) {
 
+        System.out.println("dddddd");
+        System.out.println("aaaa");
+        System.out.println("aaaaaaAAA");
         System.out.println("aaaaaa");
-        System.out.println("bbbbbb");
-        System.out.println("cccccccccccc");
+        System.out.println("oooooo");
+
+
 
     }
 }
