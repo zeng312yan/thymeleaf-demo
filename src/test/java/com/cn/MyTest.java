@@ -13,6 +13,7 @@ public class MyTest extends Application {
     public void start(Stage primaryStage) {
 
         System.out.println("aaaaaa");
+        System.out.println("demo0");
 
 
 
