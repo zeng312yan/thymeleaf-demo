@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+</head>
+<body>
+<h2>测试成功</h2>
+<!--/*@thymesVar id="hello" type="java.lang.String"*/-->
+<p th:utext="'接受到的数据： ' + ${hello}"></p>
+
+<h5 th:object="${student}">
+    <p>学生姓名: <span th:text="*{name}"></span></p>
+    <p>学生年龄： <span th:text="*{age}"></span></p>
+    <p>课程名： <span th:text="*{course.name}"></span> </p>
+    <p>授课老师： <span th:text="*{course.teacher}"></span></p>
+</h5>
+
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+    </tr>
+
+    <tr th:each="user : ${userList}">
+        <td th:text="${user.nickName}"></td>
+        <td th:text="${user.age}"></td>
+    </tr>
+</table>
+
+</body>
+</html>
+
