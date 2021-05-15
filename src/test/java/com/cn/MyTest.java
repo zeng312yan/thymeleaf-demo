@@ -13,7 +13,7 @@ public class MyTest extends Application {
     public void start(Stage primaryStage) {
 
         System.out.println("aaaaaa");
-        System.out.println("djsfdjsd");
+        System.out.println("1");
 
 
 
