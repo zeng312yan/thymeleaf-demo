@@ -13,9 +13,6 @@ public class MyTest extends Application {
     public void start(Stage primaryStage) {
 
         System.out.println("aaaaaa");
-        System.out.println("ccccccBBBBcccccc");
-        System.out.println("bbbbbb");
-        System.out.println("dddd");
         System.out.println("djsfdjsd");
 
 
